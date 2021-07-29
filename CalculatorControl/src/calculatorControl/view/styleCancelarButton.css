@@ -1,0 +1,31 @@
+.button{
+    -fx-background-color:
+        linear-gradient(#f2f2f2 0%, #ebebeb 49%, #dddddd 50%, #cfcfcf 100%);
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+}
+
+.button:hover{
+    -fx-background-color:#5384b4,
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 5px;
+    -fx-font-size: 12px;
+}
+
+.button:pressed{
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+.button:focused{
+    -fx-background-color: 
+        linear-gradient(#f2f2f2 0%, #ebebeb 49%, #dddddd 50%, #a7d9f5 100%);
+    -fx-background-radius: 5px;
+    -fx-font-size: 12px;
+}
+
+.robotoRegular12 {
+    -fx-font-family: "Roboto Regular";
+    -fx-font-size: 12px;
+}
